@@ -1,0 +1,27 @@
+{
+  "name": "ci-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/**.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douwewermer/ci-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douwewermer/ci-test/issues"
+  },
+  "homepage": "https://github.com/douwewermer/ci-test#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  }
+}
